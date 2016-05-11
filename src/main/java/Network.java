@@ -11,15 +11,27 @@ import processing.core.PApplet;
 public class Network {
 	
 	private PApplet parent;
+	private int source;
+	private int target;
+	private int value;
 
-	public Network(PApplet parent){
+	public Network(PApplet parent, int source, int target, int value){
 
 		this.parent = parent;
-		
+		this.source = source;
+		this.target = target;
+		this.value = value;
 	}
 
 	public void display(){
+		//this.parent.
 		
+	}
+	public int getTarget(){
+		return this.target;
+	}
+	public int getValue(){
+		return this.value;
 	}
 	
 }
